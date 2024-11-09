@@ -18,14 +18,14 @@
                 </div>
                 <div class="card-body">
                     <!-- atribut wajib di form -->
-                    <form action="index.php" method="POST" enctype="multipart/form-data">
+                    <form action="proses.php" method="POST" enctype="multipart/form-data">
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">NIDN</label>
                                 <input type="text" name="nidn" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">      
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Nama Lengkap</label>
-                            <input type="text" name="nama" class="form-control" id="exampleInputPassword1">
+                            <input type="text" name="nama_lengkap" class="form-control" id="exampleInputPassword1">
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Rumpun</label>
@@ -40,11 +40,11 @@
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Tempat Lahir</label>
-                            <input type="text" name="tempat" class="form-control" id="exampleInputPassword1">
+                            <input type="text" name="tempat_lahir" class="form-control" id="exampleInputPassword1">
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Tanggal Lahir</label>
-                            <input type="date" name="tgl" class="form-control" id="exampleInputPassword1">
+                            <input type="date" name="tgl_lahir" class="form-control" id="exampleInputPassword1">
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Email</label>
